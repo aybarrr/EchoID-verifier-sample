@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Container Styles */
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header & Subheader */
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+.subheader {
+  font-size: 18px;
+  margin: 15px 0;
+  color: #555;
+}
+
+/* Button */
+.action-button {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  background-color: #9AFE5B;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.action-button:hover {
+  background-color: #74F526;
+  transform: translateY(-2px);
+}
+
+/* QR Code */
+#qrcode {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Error */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .header { font-size: 28px; }
+  .subheader { font-size: 16px; }
+  .action-button { font-size: 16px; }
+}

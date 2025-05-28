@@ -103,6 +103,8 @@ async function callback(req, res) {
     console.log(`✅ [session ${sessionId}] Authentication successful!`);
     console.log("Full verify response:", authResponse);
   } catch (error) {
+    console.log("Error verification");
+
     return res.status(500).send(error);
   }
   return res
